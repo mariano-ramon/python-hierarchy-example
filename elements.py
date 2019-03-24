@@ -52,7 +52,7 @@ class Oxygen(Atom):
         super().__init__("O", 1, 16)
 
 class Water(Molecule):
-    """ Hidrogen element """
+    """ Water Molecule """
     def __init__(self):
         self.composition = [(Hidrogen(), 2),
                             (Oxygen(), 1)]  
